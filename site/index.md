@@ -58,7 +58,7 @@
 - updated Slack logging to ensure only critical logging events are sent to slack
 - updates to logging and monitoring
 
-### July 9th
+## July 9th
 
 ![image-20230815144844566](index.assets/image-20230815144844566.png)
 
