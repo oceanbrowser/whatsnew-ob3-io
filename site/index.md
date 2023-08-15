@@ -68,8 +68,16 @@
 
 - system updates to OB3 after our first week in operation on Azure Cloud
 
-## July 2nd
 
-### Major update - migrate OB3 to Azure Cloud
 
-- further details to come
+# OB3 Azure Cloud (major update)
+
+- this update deployed on Sunday July 2nd
+- OB3 code base has been restructureded into packages, in preparation for supporting the next major OB3 feature release
+- OB3 data and services migrated to Sydney Australia data region
+- OB3 delivered as a containerised (docker) application running under Azure App Service and Azure Cassandra as Managed Service database
+- improvements to application monitoring and logging
+- security enhancements
+- application performance and scalability enhancements
+- improvements ti resilience, with easy ability to deploy OB3 in different geographical regions, or to support dedicated OB3 instances for Enterprise customers
+- improved developer workflows allowing faster release of enhancements and updates

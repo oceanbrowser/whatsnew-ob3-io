@@ -2,6 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "ob3": "yarn run lint && yarn run fix && yarn run build && yarn run website-build",
     "build": "lerna run build --scope @single-page-markdown-website/frontend && lerna run build --scope single-page-markdown-website",
     "clean": "lerna run --parallel --stream clean && yarn run website-clean && rm -rf '*.log'",
     "docs": "markdown-interpolate README.md",
