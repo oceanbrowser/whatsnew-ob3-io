@@ -1,4 +1,4 @@
-# OB3 Release notes - 2023
+# OB3 S2 2023 updates 
 
 ## August 14th
 
@@ -79,5 +79,5 @@
 - improvements to application monitoring and logging
 - security enhancements
 - application performance and scalability enhancements
-- improvements ti resilience, with easy ability to deploy OB3 in different geographical regions, or to support dedicated OB3 instances for Enterprise customers
+- improvement resilience, with easy ability to deploy OB3 in different geographical regions, or to support dedicated OB3 instances for Enterprise customers
 - improved developer workflows allowing faster release of enhancements and updates
