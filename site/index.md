@@ -76,4 +76,55 @@
 
 # OB3 S1 2023 Updates
 
-Details to come
+Check back later for further updates in this section
+
+### Table Deletion warnings
+
+- Student portfolios in OB3 use tables extensively.  These enhancements are designed to help students avoid accidentally deleting tables or columns
+- show warning dialog and ask user to confirm when attempting to delete a table with many cells.  
+- show warning dialog and ask user to confirm when user attempts to delete a column from a table containing many cells.  
+
+### Add keyboard command support for common document editing operations
+
+![image-20230816133302744](index.assets/image-20230816133302744.png)
+
+- add support for changing style of paragraphs from keyboard.  
+- add support for changing paragraph to list (option + L) or table (option + T) from keyboard.  The list command is particularly helpful when using lists extensively
+- update OB3 keyboard help map (accessible via the keyboard icon at the bottom right of OB3)
+
+### Update Copy to Clipboard features
+
+- Update "Copy to clipboard" buttons throughout OB3 to use modern browser copy methods.  Buttons now correctly copy content (such as URLs) to clipboard
+
+### Remove Flash support
+
+- remove legacy code from OB3 (and OB3 application build processes) related to supporting Flash content.  Please note if you have educational content that uses Flash we are able to support this using the Ruffle flash player.  Please contact help@ob3.io for assistance
+
+### Preparationg for OB3 on Azure
+
+- tasks ongoing over the last years and too extensive to list here but included (for example) updates to docker application build process, extensive testing in Azure App service, adding application health check,  updating OB3 database support to work with Azure Managed Cassandra database service, updating logging to work with Azure logging and Application Insights APM services
+
+### Set document name when navigating OB3 content
+
+![image-20230816133910682](index.assets/image-20230816133910682.png)
+
+- when navigating OB3 content change the browser window title to match the content being viewed.  Supports updates for navigating courses and folders, and for documents opened.
+- Note that by recording this inforrmation browser history will now show your navigation through OB3 content allowing students to return to content they have previously viewed (note: if using Chrome Incognito window you may need to re-enable history recording which is disabled by default)
+
+### Add Privacy Policy and Terms of Service acceptance screen
+
+![image-20230816134713679](index.assets/image-20230816134713679.png)
+
+- add startup screen for new users to view and accept terms of service and privacy policy agreements
+
+### Enterprise customer updates
+
+- a number of tasks were completed for enterprise customers in this period, details ommitted here for client privacy reasons
+
+### Miscellaneous updates
+
+- update wording on OB3 new account activation email - sent to users who are invited to OB3 via email
+- update OB3 password reset policy to reject passwords that are too insecure
+- update code for detecting Grammerly browser extension and disabling in OB3.  OB3 (in common with many other editing apps) does not support Grammarly as it interferes with content editing.
+- disable pasting images or file attachments into lists or tables
+- update database connection logic to more reliably handle database socket connection timeouts
