@@ -1,6 +1,17 @@
 # OB3 S2 2023 updates 
 
-Latest update: August 14th 2023
+Latest update: August 16th 2023
+
+### Support enhancement - Intercom - email users who only login once after seven days
+
+- sent after 7 days if the user has only one session in OB3.  This message is just to ensure that user did not have a problem logging in or accessing their course content
+- message sent via email
+
+![image-20230816165755816](index.assets/image-20230816165755816.png)
+
+### Temporarily disable legals acceptance screen
+
+- disabled the legals acceptance screen while we undertake additional testing of this UX screen.  Will be reenabled in our next update.  When reenabled any new users who have not been prompted to accept terms will see screen on next login.
 
 ### Edit and Share enhancements for instructors
 
