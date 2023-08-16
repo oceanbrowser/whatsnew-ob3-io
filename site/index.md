@@ -1,13 +1,16 @@
 # OB3 S2 2023 updates 
 
-## August updates
+Latest update: August 14th 2023
 
 ### Edit and Share enhancements for instructors
 
-- when sharing a course via LTI the default privilege for Instructors (teachers) is Edit and Share.  This privilege will allow teachers to modify sharing on content within a course without having to access the PMA (Dept) account where course sharing is setup.  Today's enhancement changes how Edit and Share works by 
+- when sharing a course via LTI the default privilege for Instructors (teachers) is Edit and Share.  This privilege will allow teachers to modify sharing on content within a course without having to access the PMA (Dept) account where course sharing is setup.  
+  - The intention of this privilege is to allow the OB3 co-ordinator (or trained staff within a Department) to undertake OB3 course rollovers and setup, while allowing teachers to be able to modify course sharing on content without having to have access to the PMA (Departmental) account.
+  
+- Today's enhancement improves the teacher UX for Edit and Share by:
   - preventing Instructors from (typically accidentally) deleting Learner or Instructor groups, which are required for correct LTI course sharing operation, from their teacher account.  These groups now appear without the "x" delete option. 
-  - hide groups which cannot be configured by the teacher from their account. Teachers must use the PMA account if they wish to adjust LTI course groups.  
-  - Teachers can modify sharing within the course - for example allowing a student to have edit rights on a document or folder.  This provides the flexibility required for various collaborative activities and portfolio cases of use that OB3 supports
+  - hide groups which cannot be configured by the teacher from their account. Teachers must use the PMA account if they wish to adjust LTI course groups.  This means a teacher may sometimes see that a course has 3 groups but when viewing the course the groups may not appear.  If groups are not visible in the sharing dialog, this means they need to be edited in the PMA account.
+  - Teachers can modify sharing within the course - for example allowing a student to have edit rights on a document or folder.  Teachers can create their own groups and use with course sharing. This provides the flexibility required for various collaborative activities and portfolio cases of use that OB3 supports.
 
 ### Release notes website
 
@@ -21,6 +24,8 @@
 
 - you can use the link button in the OB3 sidebar to obtain a URL pointing to specific content in a document (for example a specific discussion or heading, ie a deep link).  Fixed a bug where this UX element would not hide after use. 
 
+- update cut paste logic when used to cut a list item (or items) from within a list and paste as paragraph.  Previously would "alias" the pasted paragraph instead of pasting it which we do not support.
+
 ### Sharing and Permissions design update
 
 ![image-20230815130213971](index.assets/image-20230815130213971.png)
@@ -28,8 +33,6 @@
 - updated the design of the Sharing and permission dialog.  This now appears as a modal window. 
 - added a red close button at top right to visually distinguish from the sharing privileges - this is to help prevent users from accidentally deleting shares when trying to close dialog
 - added button bar at bottom including a new Help button that goes to sharing topics on guide.ob3.io website.  Additional help articles will be posted there
-
-## July Updates
 
 ### Updates to LTI course sharing
 
@@ -59,6 +62,7 @@
 - fixed a bug in the password reset screen
 - updated Slack logging to ensure only critical logging events are sent to slack
 - updates to logging and monitoring
+- forbid operations that would ever add a component into itself
 
 # Major update: OB3 Azure Cloud release
 
@@ -100,9 +104,12 @@ Check back later for further updates in this section
 
 - remove legacy code from OB3 (and OB3 application build processes) related to supporting Flash content.  Please note if you have educational content that uses Flash we are able to support this using the Ruffle flash player.  Please contact help@ob3.io for assistance
 
-### Preparationg for OB3 on Azure
+### Preparing OB3 for deploying to the Azure Cloud
 
-- tasks ongoing over the last years and too extensive to list here but included (for example) updates to docker application build process, extensive testing in Azure App service, adding application health check,  updating OB3 database support to work with Azure Managed Cassandra database service, updating logging to work with Azure logging and Application Insights APM services
+- tasks ongoing over the last year (2022-23) and are too extensive to list here
+- extensive testing in Azure App service since November 2022
+- testing and documentation of application migration process
+- development and updating of operations documentation
 
 ### Set document name when navigating OB3 content
 
