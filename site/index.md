@@ -5,7 +5,7 @@ Latest update: August 13th 2023
 ### Support enhancement - Intercom - email users who only login once after seven days
 
 - sent after 7 days if the user has only one session in OB3.  This message is just to ensure that user did not have a problem logging in or accessing their course content 
-- message sent via email.
+- message sent via email
 
 ![image-20230816165755816](index.assets/image-20230816165755816.png)
 
