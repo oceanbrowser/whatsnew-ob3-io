@@ -25,6 +25,8 @@ Latest update: August 13th 2023
 
 ### Bug fixes
 
+- add additional tests to ensure that account has all required information for proceeding with login - to address an edge case of user attempting to login with an invalid account (missing email or OB3 userID data).  User will be prompted to contact support and login will abort to login screen on account failure.
+
 - when using OB3 clipboard if you cut and paste feature to move content within the same document sometimes pasted content would sometimes appear in wrong position. 
 
   ![image-20230815124817911](index.assets/image-20230815124817911.png)
