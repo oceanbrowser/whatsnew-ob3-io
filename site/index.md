@@ -1,6 +1,11 @@
 # OB3 S2 2023 updates 
 
-Latest update: August 13th 2023
+Latest update: August 28th 2023
+
+### Updated the Media Catalog report
+
+- updated this report to work with an updated csv library
+- this report will export all media used within a page (or folder, or course) in a variety of formats.  It can be used to export media embeds from OB3 for re-use in an LMS (for example to embed OB3 hosted videos in Canvas LMS)
 
 ### Support enhancement - Intercom - email users who only login once after seven days
 
