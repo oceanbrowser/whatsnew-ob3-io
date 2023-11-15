@@ -1,6 +1,14 @@
 # OB3 S2 2023 updates 
 
-Latest update: August 28th 2023
+Latest update: November 13th 2023
+
+### Major release work in progress
+
+- design and development work continues this semester on OB3's next major feature release.  Further details will be released Q1 2024
+
+### Updates to Cloud hosting
+
+- all OB3 hosted Cloud files (file attachments, images, embedded media etc) are now stored in Sydney Australia.  Previously some assets were stored in London UK.
 
 ### Updated the Media Catalog report
 
