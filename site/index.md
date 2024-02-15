@@ -1,3 +1,32 @@
+# OB3 S2 2024 updates
+
+## Security enhancements
+
+- improvements to OB3 security with measures for detection and mitigation against DDoS attacks and OWASP top 10 attacks amongst others.  Further details available to enterprise customers.
+
+## Improvements to copying styled content from MS Word
+
+OB3 now supports importing content that has been styled using Word style sheets.  Create the following styles in MS Word Style pane and apply to your content in Word:
+
+- question-OB3
+- answer-OB3
+- quote-OB3
+- important-OB3
+- announcement-OB3
+- citation-OB3
+- caption-OB3
+
+When you copy content to OB3 it will be styled using the corresponding OB3 paragraph styles.
+
+## Improvements to video loading
+
+OB3 now shows a progress indicator when large videos are being loaded.  The initial delay occurs as video is copied into the CDN.
+
+#### Bug fixes
+
+- fixed a bug that prevented underlined text from being copied correctly
+- MS Word Title style is now recognised as heading level 1 in OB3
+
 # OB3 S2 2023 updates 
 
 Latest update: November 13th 2023
@@ -37,6 +66,10 @@ Latest update: November 13th 2023
 - added this release notes (what's new) website, where details of OB3 updates will be posted.
 
 ### Bug fixes
+
+- fixed a bug that prevented some images in old OB3 documents (migrated from OB3 version 1 prior to 2015) from displaying correctly.
+
+- fixed a bug in the media catalog report
 
 - add additional tests to ensure that account has all required information for proceeding with login - to address an edge case of user attempting to login with an invalid account (missing email or OB3 userID data).  User will be prompted to contact support and login will abort to login screen on account failure.
 
