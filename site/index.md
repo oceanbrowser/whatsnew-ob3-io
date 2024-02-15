@@ -1,8 +1,8 @@
-# OB3 S2 2024 updates
+# OB3 S1 2024 updates
 
 ## Security enhancements
 
-- improvements to OB3 security with measures for detection and mitigation against DDoS attacks and OWASP top 10 attacks amongst others.  Further details available to enterprise customers.
+- improvements to OB3 security with measures for detection and mitigation against DDoS attacks and [OWASP top 10](https://owasp.org/www-project-top-ten/) attacks amongst others.  Further details available to enterprise customers.
 
 ## Improvements to copying styled content from MS Word
 
