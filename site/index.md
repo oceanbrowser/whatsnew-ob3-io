@@ -1,35 +1,46 @@
 # OB3 S1 2024 updates
 
+Latest update: Feb 23rd 2024
+
 ## Security enhancements
 
-- improvements to OB3 security with measures for detection and mitigation against DDoS attacks and [OWASP top 10](https://owasp.org/www-project-top-ten/) attacks amongst others.  Further details available to enterprise customers.
+- improvements to OB3 security with measures for detection and mitigation against DDoS attacks and [OWASP top 10](https://owasp.org/www-project-top-ten/) attacks amongst others.  
+- Further details available to enterprise customers.
 
-## Improvements to copying styled content from MS Word
+## Add support for OB3 styles - MS Word
 
-OB3 now supports importing content that has been styled using Word style sheets.  Create the following styles in MS Word Style pane and apply to your content in Word:
+OB3 now supports importing content that has been styled using Word style sheets.  
 
-- question-OB3
-- answer-OB3
-- quote-OB3
-- important-OB3
-- announcement-OB3
-- citation-OB3
-- caption-OB3
+A template Word document is available at the following URL which contains the styles and instructions on how to use [https://www.ob3.io/downloads/ob3-word-stylesheet/ob3-word-stylesheet-example.zip](https://ob3.intercom-clicks.com/via/e?ob=WSuPJyUYGuQJFle753UGGLoKE2B0xMaQNGknKgoPURKGv9BvjbY9SPUTYBkbeAoEloAC%2FG04iMAxrv7b%2FfVDGcxdXt4EUUxHj5hXRf9br7czJubf%2FCl2LBg56rqLE4zm&h=460be1efa34215ea32a185d054d3c8a91331fc55-fhbhwljd_14446200013722&l=63de03b3e1b59cf9dcca37c3a233f5a6c5c9bc7d-96205953).
+
+You can copy paste or drag/drop content from Word to OB3.  Create the following styles in MS Word Style pane and apply to your content in Word:
+
+- question
+- answer
+- quote
+- important
+- announcement
+- citation (or reference)
+- caption
 
 When you copy content to OB3 it will be styled using the corresponding OB3 paragraph styles.
+
+Academic staff who have joined a course via LMS (Moodle, Canvas) will receive automated message via email Teacher onboarding in Intercom.
 
 ## Improvements to video loading
 
 OB3 now shows a progress indicator when large videos are being loaded.  The initial delay occurs as video is copied into the CDN.
 
-#### Bug fixes
+#### Bug fixes and minor updates
 
 - fixed a bug that prevented underlined text from being copied correctly
 - MS Word Title style is now recognised as heading level 1 in OB3
+- OB3 quote style is now not italicised
+- improvements to logging
+- ob3 copy paste now recognises underlined text correctly
+- pasting file:// protocol links is disabled: ob3 will now not hyperlink file protocol links - to prevent users from hyperlinking to files on their own computer that are not on the web
 
 # OB3 S2 2023 updates 
-
-Latest update: November 13th 2023
 
 ### Major release work in progress
 
