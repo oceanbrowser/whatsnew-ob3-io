@@ -1,8 +1,24 @@
 # OB3 S1 2024 updates
 
-Latest update: Feb 23rd 2024
+Latest update: March 13th 2024
 
-## Security enhancements
+## Updates to OB3 password reset and policies
+
+- OB3 password reset screen has had design improvements
+- We've updated the password policies for OB3 to require stronger passwords, and more "diverse" passwords - so using easy to guess words or phrases in your password will not be allowed
+  - FYI OB3 stores your password in an encrypted format - we don't know or store the plain text of your password in our systems (and we'll never ask you for your password)
+
+## Updates to OB3 Cookies
+
+- We've implemented updates to OB3 cookies to improve privacy, and support updates to Google Chrome browser that prevent cookies from being able to "track" users between sites (while OB3 doesn't do this, we've had to update our app to support newer and more private ways of using cookies that are now required by Google)
+
+### Bug fixes and minor updates (March)
+
+- fixed a bug to support pasting of underlined styled text
+- removed support for pasting "file://" protocol links - which may mistakenly result in a user pasting a URL reference to a file on their computer
+- we've stopped using Google Analytics within OB3
+
+## Security enhancements (February)
 
 - improvements to OB3 security with measures for detection and mitigation against DDoS attacks and [OWASP top 10](https://owasp.org/www-project-top-ten/) attacks amongst others.  
 - Further details available to enterprise customers.
