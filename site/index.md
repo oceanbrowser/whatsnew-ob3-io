@@ -1,18 +1,68 @@
+# OB3 S2 2024 updates
+
+#### 8th August 2024
+
+## **New sharing mode: DISCUSS WITH TEACHERS**
+
+We’ve added a new sharing mode for discussions, called Discuss with Teachers.  
+
+In this sharing mode: each student can **create a discussion but can only see their own posts**, **and any replies from teachers**
+
+- Teachers (more precisely: users with a higher privilege like Edit, Add or View and Discuss) can see all discussions
+- Students will only receive notifications for their own discussions, while teachers will get notifications for all discussions
+- You can change a document to View and Discuss to “open up” the discussions so that everyone can see all discussions
+
+Access this sharing mode in the usual way from the Sharing and Permissions screen:
+
+![image-20240809170518194](index.assets/image-20240809170518194.png)
+
+Discuss with teachers can be used for activities such as:
+
+- **allow students to contribute first before discussing with each other**. Start by selecting View and Discuss with Teachers, then later when you want to open the conversation up, change to View and Discuss
+- **for surveys or other situations where you want to get feedback or responses from each student**
+- **sharing content with large diverse groups of users (e.g. all staff in organisation, alumni, all students in a Department)**
+
+## **EMOJI support in text editing**
+
+We’ve added support for using emojis in OB3.  You can type emoji codes (such as :-) for 😊).  As you type the recognised text will be replaced with the emoji.  
+
+- Supported emojis are documented in the Keyboard help section (press F1, or click the Keyboard icon at bottom right of OB3).  
+- Note: you can use emojis in file and course names as well as in document content.  
+- Please let us know if there is a desirable emoji missing from our set and we can add it in future updates.
+
+![image-20240809170529243](index.assets/image-20240809170529243.png)
+
+### **Accessibility enhancements to keyboard navigation**
+
+As part of ongoing work to make OB3 fully accessible, we are releasing improved keyboard navigation in this release.
+
+The new keyboard commands allow a user to:
+
+- Navigate between file manage and any opened OB3 documents, using OPTION + SHIFT + LEFT or RIGHT keys
+- Navigate document content, including navigating between headings, using OPTION + OPTION + UP or DOWN keys
+- Access OB3 buttons using the keyboard, including: Table of contents (OPTION + SHIFT + T) or OB3 Search (OPTION + SHIFT + F)
+
+Click F1 key or keyboard help icon at bottom right of OB3 to see all keyboard shortcuts.
+
+**BUG FIXES**
+
+This release includes an a number of refinements and bug fixes including improvements to media transcoding.
+
 # OB3 S1 2024 updates
 
-Latest update: March 13th 2024
+#### March 13th 2024
 
-## Updates to OB3 password reset and policies
+### Updates to OB3 password reset and policies
 
 - OB3 password reset screen has had design improvements
 - We've updated the password policies for OB3 to require stronger passwords, and more "diverse" passwords - so using easy to guess words or phrases in your password will not be allowed
   - FYI OB3 stores your password in an encrypted format - we don't know or store the plain text of your password in our systems (and we'll never ask you for your password)
 
-## Updates to OB3 Cookies
+### Updates to OB3 Cookies
 
 - We've implemented updates to OB3 cookies to improve privacy, and support updates to Google Chrome browser that prevent cookies from being able to "track" users between sites (while OB3 doesn't do this, we've had to update our app to support newer and more private ways of using cookies that are now required by Google)
 
-### Bug fixes and minor updates (March)
+#### Bug fixes and minor updates (March)
 
 - fixed a bug to support pasting of underlined styled text
 - removed support for pasting "file://" protocol links - which may mistakenly result in a user pasting a URL reference to a file on their computer
@@ -23,7 +73,7 @@ Latest update: March 13th 2024
 - improvements to OB3 security with measures for detection and mitigation against DDoS attacks and [OWASP top 10](https://owasp.org/www-project-top-ten/) attacks amongst others.  
 - Further details available to enterprise customers.
 
-## Add support for OB3 styles - MS Word
+### Add support for OB3 styles - MS Word
 
 OB3 now supports importing content that has been styled using Word style sheets.  
 
