@@ -1,3 +1,22 @@
+# OB3 S1 2025 updates
+
+### 2nd May 2025 Security Release
+
+#### Print button
+
+![image-20250326212038945](index.assets/image-20250326212038945.png)
+
+We've added a print button (next to search box top right) in addition to the cmd+p keyboard shortcut.  This is handy for OB3 users who access OB3 inside Canvas LMS (so you can print the OB3 doc, not the Canvas window it is shown within).
+
+#### Security enhancements
+
+This release incorporates a variety of enhancements including:
+
+- Content Security Policy (browser security)
+- CORS (server-side security around which websites are allowed to connect to OB3)
+- Modernised file uploading (to use S3 uploading) and changed cloud files provider and CDN provider.
+- Switch to using signed URLs on most OB3 file attachments
+
 # OB3 S2 2024 updates
 
 #### 8th August 2024
