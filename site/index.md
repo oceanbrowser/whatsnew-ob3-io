@@ -1,5 +1,18 @@
 # OB3 S1 2025 updates
 
+## 22nd May 2025
+
+#### Bug fixes and improvements
+
+- Fixed a bug where video and image files containing spaces in file names were not transcoded after upload
+- Improved the design of account invitation and reset emails
+
+## 16th May 2025
+
+#### OB3 Guides
+
+This release introduces onboarding guides to OB3.  These include a getting started guide, and individual guides for different types of pages in OB3 (view and discuss, view and add, edit)
+
 ### 2nd May 2025 Security Release
 
 #### Print button
